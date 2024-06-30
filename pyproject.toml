@@ -1,0 +1,22 @@
+[project]
+name = "coolbox"
+version = "0.0.6"
+authors = [
+  { name="Marek Pytka", email="markpyt1992@gmail.com" },
+]
+description = "Library of my UDFs I use during various Data Science and Software Engineering projects"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/markoo26/coolbox"
+Issues = "https://github.com/markoo26/coolbox/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
