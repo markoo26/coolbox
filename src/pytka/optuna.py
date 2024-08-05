@@ -23,7 +23,6 @@ def optuna_parallel_coordinates(optuna_study):
     fig = px.parallel_coordinates(optuna_study_df, color="value",
                                   dimensions=param_cols,
                                   color_continuous_midpoint=10)
-    fig.show()
 
     return fig
 

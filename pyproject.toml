@@ -1,10 +1,11 @@
 [project]
-name = "coolbox"
-version = "0.0.6"
+name = "pytka"
+version = "1.0.0"
 authors = [
   { name="Marek Pytka", email="markpyt1992@gmail.com" },
 ]
-description = "Library of my UDFs I use during various Data Science and Software Engineering projects"
+description = "PYthon ToolKits and Automations (PYTKA) library containing my classes & UDFs I use during various Data Science and Software Engineering projects"
+
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [

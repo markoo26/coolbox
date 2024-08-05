@@ -169,7 +169,7 @@ def tfidf_vectorize_sequences(datasets, tfidf_vectorizer_params, fields_with_seq
         splitted_set_tfidf[f"test_tfidf_{field}"] = splitted_full_tfidf[field][training_length:]
 
     # Create DataFrames to hold the SVD features for train and test sets
-    feature_names = [f'svd_feature_{i}' for i in range(svd_n_components)]
+    # feature_names = [f'svd_feature_{i}' for i in range(svd_n_components)]
     train_features = pd.DataFrame(index=initial_train_data.index)
     test_features = pd.DataFrame(index=initial_test_data.index)
 

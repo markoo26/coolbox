@@ -1,6 +1,6 @@
 import zipfile
 import os
-import datetime
+
 def create_zip(files_to_zip, zip_file_name):
     """
         Create a ZIP file based on list of files to be archived.
@@ -22,6 +22,7 @@ def create_zip(files_to_zip, zip_file_name):
     with zipfile.ZipFile(zip_file_name, 'w') as zipf:
         for file in files_to_zip:
             zipf.write(file, os.path.basename(file))
+    print(f"ZIP file: {zip_file_name} containing {files_to_zip} generated successfully")
 
 
 
