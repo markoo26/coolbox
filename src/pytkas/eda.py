@@ -4,6 +4,7 @@ import plotly.express as px
 import pandas as pd
 from .plots import make_html_filename, calculate_boxplot_stats
 from .logging import step_time_calculation
+
 class AutoEDA():
 
     def __init__(self, skip_cols, metrics, aggs, target_col, dataframe):

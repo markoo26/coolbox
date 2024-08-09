@@ -1,10 +1,10 @@
 [project]
-name = "pytka"
+name = "pytkas"
 version = "1.0.0"
 authors = [
   { name="Marek Pytka", email="markpyt1992@gmail.com" },
 ]
-description = "PYthon ToolKits and Automations (PYTKA) library containing my classes & UDFs I use during various Data Science and Software Engineering projects"
+description = "PYthon ToolKits and AutomationS (PYTKAS) library containing my classes & UDFs I use during various Data Science and Software Engineering projects"
 
 readme = "README.md"
 requires-python = ">=3.8"
@@ -15,8 +15,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/markoo26/coolbox"
-Issues = "https://github.com/markoo26/coolbox/issues"
+Homepage = "https://github.com/markoo26/pytkas"
+Issues = "https://github.com/markoo26/pytkas/issues"
 
 [build-system]
 requires = ["hatchling"]
